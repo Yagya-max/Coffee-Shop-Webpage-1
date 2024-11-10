@@ -1,0 +1,194 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Dark Background */
+body {
+    background-color: #1b1b1b;
+    color: #e6e2d3;
+}
+
+/* Header */
+header {
+    background-color: #1f1f1f;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #c49a6c;
+    font-weight: bold;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #e6e2d3;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #c49a6c;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('dark-coffee-hero.jpg'); /* Use a dark coffee background image */
+    background-size: cover;
+    background-position: center;
+    color: #e6e2d3;
+    text-align: center;
+    padding: 120px 20px;
+    background-blend-mode: overlay;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f5f1e8;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 24px;
+    color: #c49a6c;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 36px;
+    color: #f5f1e8;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    color: #e6e2d3;
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item h3 {
+    color: #c49a6c;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #f5f1e8;
+}
+
+/* Order Section */
+.order-form {
+    padding: 40px 20px;
+    background-color: #242424;
+    text-align: center;
+}
+
+.order-form h2 {
+    color: #f5f1e8;
+    margin-bottom: 20px;
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-form label, .order-form select, .order-form input, .order-form button {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #e6e2d3;
+    background-color: #1f1f1f;
+    border: 1px solid #c49a6c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #c49a6c;
+    color: #1b1b1b;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-form button:hover {
+    background-color: #e6e2d3;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+.about h2 {
+    color: #f5f1e8;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #c4b59e;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: #e6e2d3;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #c49a6c;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #f5f1e8;
+}
+
+footer p {
+    margin-top: 10px;
+}
